@@ -40,3 +40,4 @@ build/
 obj/
 
 *.pyc
+__pycache__/
