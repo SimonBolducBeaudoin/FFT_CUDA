@@ -61,4 +61,4 @@ endif()
 set(INSTALL_DIR ${PROJECT_SOURCE_DIR})
 
 # Install does'nt work properly in visual studio. Why ? Idk ask them.
-install(DIRECTORY ${DIR} DESTINATION ${INSTALL_DIR} FILES_MATCHING PATTERN "*.pyd" PATTERN "*.so" )
+install(TARGETS fftcuda DESTINATION ${INSTALL_DIR} )
