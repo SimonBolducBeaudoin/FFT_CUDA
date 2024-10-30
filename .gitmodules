@@ -2,3 +2,4 @@
 	path = CMakeConfigs
 	url = https://github.com/SimonBolducBeaudoin/CMakeConfigs.git
 	branch = MSVC_CUDA
+	update = rebase
